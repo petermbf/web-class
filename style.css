@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 200vh;
+}
+.container{
+    height: 570px;
+    border: 2px solid black;
+    width: 50%;
+    margin: 100px;
+    position: relative;
+}
+.card{
+    height: 500px;
+    width: 50%;
+    border: 2px dotted red;
+    margin: 120px 120px;
+    position: relative;
+}
+.child, .relatives{
+   height: 100px;
+   padding: 20px 20px;
+   width: 100px;
+   background-color: rgb(0, 255, 106);
+
+}
+.relatives{
+    /* position: relative;   */
+
+}
+.box1{
+background-color: red;
+/* position: absolute; */
+top: 0; 
+/* z-index: -10; */
+/* top: 100px; */
+}
+.box2{
+background-color: blue;
+position :fixed;right: 0;
+}
+.box3{
+    background-color: darkgrey;                                     
+    position: sticky;
+    top: 20px;
+}
